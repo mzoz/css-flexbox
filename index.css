@@ -4,6 +4,8 @@
   /* flex-direction: row;  <- this is by default */
   /* justify-content: space-around; */
   /* justify-content: flex-end; */
+  height: 100%;
+  align-items: center;
 }
 
 /* .logout {
@@ -14,10 +16,18 @@
   margin-right: auto;
 } */
 
-.container > div {
-  flex: 1; /* short hand for: flex-grow, flex-shrink, flex-basis */
+/* .container > div {
+  flex: 1; short hand for: flex-grow, flex-shrink, flex-basis
+} */
+
+/* .container > .search {
+  flex: 2;
+} */
+
+.logout {
+  align-self: flex-start;
 }
 
-.container > .search {
-  flex: 2;
+.home {
+  align-self: flex-end;
 }
