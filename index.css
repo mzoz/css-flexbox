@@ -1,0 +1,7 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  /* flex-direction: row;  <- this is by default */
+  /* justify-content: space-around; */
+  
+}
