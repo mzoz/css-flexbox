@@ -5,16 +5,20 @@
   /* justify-content: space-around; */
   /* justify-content: flex-end; */
   height: 100%;
-  align-items: center;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-/* .logout {
-  margin-left: auto;
-} */
+.logout {
+  /* margin-left: auto; */
+  /* align-self: flex-start; */
+}
 
-/* .home {
-  margin-right: auto;
-} */
+.home {
+  /* margin-right: auto; */
+  /* align-self: flex-end; */
+}
 
 /* .container > div {
   flex: 1; short hand for: flex-grow, flex-shrink, flex-basis
@@ -23,11 +27,3 @@
 /* .container > .search {
   flex: 2;
 } */
-
-.logout {
-  align-self: flex-start;
-}
-
-.home {
-  align-self: flex-end;
-}
